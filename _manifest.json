@@ -7,8 +7,8 @@
     "name": "氢"
   },
   "license": "MIT",
-  "homepage_url": "https://github.com/2665610114-dev/maibot_music_plugin",
-  "repository_url": "https://github.com/2665610114-dev/maibot_music_plugin",
+  "homepage_url": "https://github.com/hydrogen-francium/maibot_music_plugin",
+  "repository_url": "https://github.com/hydrogen-francium/maibot_music_plugin",
   "keywords": ["音乐", "点歌", "网易云", "QQ音乐"],
   "categories": ["娱乐", "音乐"],
   "host_application": {
