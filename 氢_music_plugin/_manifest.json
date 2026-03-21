@@ -1,0 +1,42 @@
+{
+  "manifest_version": 1,
+  "name": "点歌插件",
+  "version": "2.1.0",
+  "description": "轻量化的点歌插件，支持多音源、卡片播放、语音播放、热评、歌词、无需VIP",
+  "author": {
+    "name": "氢"
+  },
+  "license": "MIT",
+  "homepage_url": "https://github.com/Zhalslar/astrbot_plugin_music",
+  "repository_url": "https://github.com/Zhalslar/astrbot_plugin_music",
+  "keywords": [
+    "音乐",
+    "点歌",
+    "网易云",
+    "QQ音乐"
+  ],
+  "categories": [
+    "娱乐",
+    "音乐"
+  ],
+  "host_application": {
+    "min_version": "0.10.0"
+  },
+  "plugin_info": {
+    "is_built_in": false,
+    "plugin_type": "general",
+    "components": [
+      {
+        "type": "command",
+        "name": "music",
+        "description": "点歌命令"
+      },
+      {
+        "type": "command",
+        "name": "lyrics",
+        "description": "查歌词命令"
+      }
+    ]
+  },
+  "id": "氢.astrbot_plugin_music"
+}
