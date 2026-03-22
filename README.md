@@ -156,7 +156,9 @@ enc_params = "..."
 
 - 参考 [MaiBot-Napcat-Adapter](https://github.com/MaiM-with-u/MaiBot-Napcat-Adapter) 实现 NapCat API 调用
 - 使用 [NapCat](https://github.com/NapNeko/NapCatQQ) 作为 QQ 协议端
+- 原 AstrBot 版本插件: [astrbot_plugin_music](https://github.com/Zhalslar/astrbot_plugin_music)
+- kimi
 
 ## License
 
-与原项目保持一致
+MIT License
