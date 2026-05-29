@@ -1,0 +1,11 @@
+# MaiBot 点歌插件 - Python 依赖
+# 安装：pip install -r requirements.txt
+#
+# 说明：以下为插件运行所需的第三方库，与 plugin.py 中的
+# python_dependencies 保持一致。MaiBot 宿主（src.plugin_system）
+# 由主程序提供，无需在此声明；其余 import 均为 Python 标准库。
+
+aiohttp>=3.8.0     # 异步 HTTP 客户端：歌曲搜索、下载
+aiofiles>=23.1.0   # 异步文件读写：缓存歌曲文件
+Pillow>=9.5.0      # 图片渲染：生成歌词图片
+httpx>=0.24.0      # NapCat HTTP API：发送 / 撤回消息
